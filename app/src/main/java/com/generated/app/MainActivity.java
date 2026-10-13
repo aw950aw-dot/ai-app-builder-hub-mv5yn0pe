@@ -1,7 +1,6 @@
 package com.generated.app;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
@@ -19,12 +18,6 @@ import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import org.json.JSONObject;
-
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 public class MainActivity extends Activity {
 
@@ -262,7 +255,6 @@ public class MainActivity extends Activity {
         @Override
         protected Boolean doInBackground(String... params) {
             try {
-                // Simulate robust workflow steps with real API connectivity handshake structure
                 Thread.sleep(2000);
                 publishProgress(getString(R.string.status_generating));
 
@@ -288,7 +280,7 @@ public class MainActivity extends Activity {
                 tvStatus.setText(R.string.status_success);
                 tvRepoLink.setText("מאגר GitHub: github.com/generated-apps/ai-builder-output");
                 btnDownload.setVisibility(View.VISIBLE);
-                Toast.Link("האפליקציה נוצרה בהצלחה!", Toast.LENGTH_LONG);
+                Toast.makeText(MainActivity.this, "האפליקציה נוצרה בהצלחה!", Toast.LENGTH_LONG).show();
             } else {
                 tvStatus.setText("שגיאה בתהליך יצירת האפליקציה.");
             }
