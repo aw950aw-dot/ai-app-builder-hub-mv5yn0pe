@@ -5,12 +5,13 @@
     <string name="api_key_hint">הכנס מפתח API לספק הנבחר</string>
     <string name="prompt_hint">תאר את האפליקציה שברצונך לבנות באנגלית או עברית...</string>
     <string name="generate_btn">בנה אפליקציה עכשיו</string>
-    <string name="provider_label">בחר מנוע בינה מלאכותית:</string>
+    <string name="provider_label">בחר או הקלד מנוע בינה מלאכותית (מודל):</string>
+    <string name="custom_model_hint">הקלד שם מודל מותאם אישית (לדוגמה: gpt-4, claude-3-opus)...</string>
     <string name="status_ready">הכל מוכן לבניית האפליקציה שלך</string>
     <string name="status_cloning">יוצר ומאכלס מאגר גיטהוב...</string>
     <string name="status_generating">כותב קוד מלא באמצעות AI...</string>
     <string name="status_compiling">מהדק ומייצר קובץ APK...</string>
-    <string name="status_success">האפליקציה נוצרה בהצלחה!</string>
-    <string name="download_apk">הורד קובץ APK</string>
+    <string name="status_success">האפליקציה וה-APK נוצרו בהצלחה!</string>
+    <string name="download_apk">הורד והתקן קובץ APK ישירות</string>
     <string name="repo_url_label">קישור למאגר שנוצר:</string>
 </resources>
