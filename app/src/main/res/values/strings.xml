@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">מחולל האפליקציות AI</string>
+    <string name="settings_title">הגדרות חיבור למערכת</string>
+    <string name="github_token_hint">הכנס טוקון גיטהוב (GitHub Token)</string>
+    <string name="api_key_hint">הכנס מפתח API לספק הנבחר</string>
+    <string name="prompt_hint">תאר את האפליקציה שברצונך לבנות באנגלית או עברית...</string>
+    <string name="generate_btn">בנה אפליקציה עכשיו</string>
+    <string name="provider_label">בחר מנוע בינה מלאכותית:</string>
+    <string name="status_ready">הכל מוכן לבניית האפליקציה שלך</string>
+    <string name="status_cloning">יוצר ומאכלס מאגר גיטהוב...</string>
+    <string name="status_generating">כותב קוד מלא באמצעות AI...</string>
+    <string name="status_compiling">מהדק ומייצר קובץ APK...</string>
+    <string name="status_success">האפליקציה נוצרה בהצלחה!</string>
+    <string name="download_apk">הורד קובץ APK</string>
+    <string name="repo_url_label">קישור למאגר שנוצר:</string>
+</resources>
